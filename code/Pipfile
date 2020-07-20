@@ -12,6 +12,8 @@ spotipy = "==2.13.0"
 flask = "==1.1.2"
 boto3 = "==1.14.23"
 requests = "*"
+Jinja2 = "==2.11.2"
+pytz = "==2020.1"
 
 [dev-packages]
 pylint = "*"
