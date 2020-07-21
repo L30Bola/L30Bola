@@ -1,6 +1,7 @@
 from datetime import datetime
 from os import environ
 
+from jinja2 import Environment, FileSystemLoader
 from pytz import utc
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyOAuth
@@ -18,7 +19,7 @@ except Exception as e:
 
 expires_at = tokens['expires_at']
 artists_names = []
-artists_url = []
+artists_urls = []
 
 if expires_at > int(datetime.now().strftime('%s')):
   sp = Spotify(auth_manager=sp_oauth)
@@ -30,19 +31,21 @@ if expires_at > int(datetime.now().strftime('%s')):
     album_name = currently_playing['item']['album']['external_urls']['spotify']
     album_image_url = currently_playing['item']['album']['images'][0]['url']
     artists = currently_playing['item']['artists']
-
     if len(artists) > 1:
       for artist in artists:
         artists_names.append(artist['name'])
-        artists_url.append(artist['external_urls']['spotify'])
+        artists_urls.append(artist['external_urls']['spotify'])
     else:
       artists_names.append(artists[0]['name'])
-      artists_url.append(artists[0]['external_urls']['spotify'])
-
+      artists_urls.append(artists[0]['external_urls']['spotify'])
   else:
-    song_name = None
-    song_url = None
-    artists = None
-    album_name = None
-    album_image_url = None
-    artists = None
+    song_name = ''
+    song_url = ''
+    artists = []
+    album_name = ''
+    album_image_url = ''
+
+templateLoader = FileSystemLoader(searchpath="./")
+templateEnv = Environment(loader=templateLoader, autoescape=True)
+template = templateEnv.get_template("template.md")
+output = template.render(song_name=song_name, song_url=song_url, album_name=album_name, album_image_url=album_image_url, artists_names=artists_names, artists_urls=artists_urls)
