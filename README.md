@@ -1,5 +1,5 @@
 ## Welcome to my profile!
-### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Wildlife Studios](https://wildlifestudios.com/wp-content/themes/Wildlife/assets/img/_system/logo-header.png)](https://wildlifestudios.com/)
+### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Wildlife Studios](img/wls-logo.gif)](https://wildlifestudios.com/)
 
 ---
 
