@@ -1,5 +1,5 @@
 ## Welcome to my profile!
-### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Wildlife Studios](https://github.com/L30Bola/L30Bola/blob/master/img/wls-logo.gif)](https://wildlifestudios.com/)
+### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Power Home Remodeling Group](https://github.com/L30Bola/L30Bola/blob/master/img/power-logo.gif)](https://powerhrg.com/)
 
 ---
 
