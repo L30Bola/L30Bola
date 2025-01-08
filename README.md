@@ -1,5 +1,5 @@
 ## Welcome to my profile!
-### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Power Home Remodeling Group](https://github.com/L30Bola/L30Bola/blob/master/img/power-logo.gif)](https://powerhrg.com/)
+### [Site Reliability Engineer](https://opensource.com/article/18/10/what-site-reliability-engineer) @ [![Power Home Remodeling Group](https://github.com/L30Bola/L30Bola/blob/master/img/power-logo.png)](https://powerhrg.com/)
 
 ---
 
