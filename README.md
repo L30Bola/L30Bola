@@ -1,5 +1,5 @@
 ## Welcome to my profile!
-<h3> <a href="https://opensource.com/article/18/10/what-site-reliability-engineer">Site Reliability Engineer</a> @ <a href="https://powerhrg.com/"><img src="https://github.com/L30Bola/L30Bola/blob/master/img/power-logo.png" alt="Power Home Remodeling Group" width="150"></a></h3>
+<h3> <a href="https://opensource.com/article/18/10/what-site-reliability-engineer">Site Reliability Engineer</a> @ <a href="https://powerhrg.com/"><img src="https://github.com/L30Bola/L30Bola/blob/master/img/phrg-logo.gif" alt="Power Home Remodeling Group" width="150"></a></h3>
 
 ---
 
