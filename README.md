@@ -16,7 +16,7 @@
 
 ---
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=l30bola)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=l30bola)](https://github.com/kittinan/spotify-github-profile)
 
 *“My passion and energy get mistaken for anger.”* - Gary Oldman
 
